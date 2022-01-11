@@ -4,7 +4,7 @@ import './Footer.css';
 const Footer = () => {
     return (
         <div className='footer'>
-            <p>Copyright © 2022 Lazarte Ezequiel</p>
+            <p>Copyright © 2022 EJ Accesorios</p>
         </div>
     );
 }
