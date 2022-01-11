@@ -25,3 +25,22 @@ h2 {
     width: 2em;
     height: auto;
 }
+
+.titulo3 {
+    text-align: center;
+}
+
+.horarios {
+    display: flex;
+    justify-content: center;
+}
+
+.tabla {
+    border-style: solid;
+    border-color: cadetblue;
+    padding: 0.5em;
+}
+
+.datoTabla {
+    padding: 0em 1em;
+}
