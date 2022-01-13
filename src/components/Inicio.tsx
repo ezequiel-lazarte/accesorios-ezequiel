@@ -11,8 +11,7 @@ const Inicio = () => {
             <p>Tenemos los mejores precios de Santa Fe y Recreo.</p>
             <p className='texto'>Puede enviarnos por WhatsApp 3425259247 o por nuestra página de <a className='facebook' rel="stylesheet" href="https://m.facebook.com/profile.php?id=109351711629861&ref=content_filter" target={'_blank'}>Facebook</a>.</p>
             <a href="https://m.facebook.com/profile.php?id=109351711629861&ref=content_filter" target={'_blank'}><img className='imgFacebook' src={imgFacebook} alt="logo facebook" /></a>
-
-            <h3 className='titulo3'>Horarios de Atención</h3>
+            <h3 className='titulo3'>Horarios de Atención Via Facebook o WhatsApp</h3>
             <div className='horarios'>
                 <table className='tabla'>
                     <tr className="fila">
@@ -49,12 +48,10 @@ const Inicio = () => {
                     </tr>
                 </table>
             </div>
-            
-
             <h3 className='titulo3'>Reparto de pedidos</h3>
-            <p className='texto'>Todos los días se hacen reparto en ciudad de Recreo Norte.</p>
-            <p className='texto'>En Recreo Sur se reparte los lunes, miércoles y viernes.</p>
-            <p className='texto'>En Santa Fe se reparte martes, jueves y sábados.</p>
+            <p className='texto'>Todos los días se hacen repartos en ciudad de Recreo Norte.</p>
+            <p className='texto-reparto'>En Recreo Sur se reparte solo los Lunes.</p>
+            <p className='texto-reparto'>En Santa Fe se reparte solo los Lunes.</p>
             <p className='texto'>Siempre que allá algún cambio inesperado en los horarios de atención y/o repartos se comunicaran en los estados de WhatsApp y en la página de Facebook.</p>
         </div>
     );
