@@ -5,10 +5,13 @@ const Productos = () => {
     const [articulos, setArticulos] = useState([]);
     useEffect(() => {
         fetch('https://tienda-v.herokuapp.com/api/products/', {
-            
+            mode: 'no-cors'
         })
         .then(response => response.json())
-        .then((articulos) => setArticulos(articulos))
+        .then((articulos) => {
+            setArticulos(articulos);
+            console.log(articulos);
+        })
         .catch((err) => {
             console.error(err);
             console.log('Fallo la peticion de productos');

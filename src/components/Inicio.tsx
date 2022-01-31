@@ -16,35 +16,43 @@ const Inicio = () => {
                 <table className='tabla'>
                     <tr className="fila">
                         <th className='datoTabla'>Dia</th>
-                        <th className='datoTabla'>Horario</th>
+                        <th className='datoTabla'>Horario Mañana</th>
+                        <th className='datoTabla'>Horario Tarde</th>
                     </tr>
                     <tr className="fila">
                         <td className='datoTabla'>Lunes</td>
-                        <td className='datoTabla'>08hs - 20hs</td>
+                        <td className='datoTabla'>08hs - 14hs</td>
+                        <td className='datoTabla'>16hs - 21hs</td>
                     </tr>
                     <tr className="fila">
                         <td className='datoTabla'>Martes</td>
-                        <td className='datoTabla'>08hs - 20hs</td>
+                        <td className='datoTabla'>08hs - 14hs</td>
+                        <td className='datoTabla'>16hs - 21hs</td>
                     </tr>
                     <tr className="fila">
                         <td className='datoTabla'>Miércoles</td>
-                        <td className='datoTabla'>08hs - 20hs</td>
+                        <td className='datoTabla'>08hs - 14hs</td>
+                        <td className='datoTabla'>16hs - 21hs</td>
                     </tr>
                     <tr className="fila">
                         <td className='datoTabla'>Jueves</td>
-                        <td className='datoTabla'>08hs - 20hs</td>
+                        <td className='datoTabla'>08hs - 14hs</td>
+                        <td className='datoTabla'>16hs - 21hs</td>
                     </tr>
                     <tr className="fila">
                         <td className='datoTabla'>Viernes</td>
-                        <td className='datoTabla'>08hs - 20hs</td>
+                        <td className='datoTabla'>08hs - 14hs</td>
+                        <td className='datoTabla'>16hs - 21hs</td>
                     </tr>
                     <tr className="fila">
                         <td className='datoTabla'>Sábado</td>
-                        <td className='datoTabla'>12hs - 20hs</td>
+                        <td className='datoTabla'>08hs - 14hs</td>
+                        <td className='datoTabla'> Cerrado </td>
                     </tr>
                     <tr className="fila">
                         <td className='datoTabla'>Domingo</td>
-                        <td className='datoTabla'>12hs - 20hs</td>
+                        <td className='datoTabla'> Cerrado </td>
+                        <td className='datoTabla'> Cerrado </td>
                     </tr>
                 </table>
             </div>
@@ -52,7 +60,7 @@ const Inicio = () => {
             <p className='texto'>Todos los días se hacen repartos en ciudad de Recreo Norte.</p>
             <p className='texto-reparto'>En Recreo Sur se reparte solo los Lunes.</p>
             <p className='texto-reparto'>En Santa Fe se reparte solo los Lunes.</p>
-            <p className='texto'>Siempre que allá algún cambio inesperado en los horarios de atención y/o repartos se comunicaran en los estados de WhatsApp y en la página de Facebook.</p>
+            <p className='texto'>Siempre que haya algún cambio inesperado en los horarios de atención y/o repartos se comunicaran en los estados de WhatsApp y en la página de Facebook.</p>
         </div>
     );
 }

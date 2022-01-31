@@ -1,0 +1,14 @@
+[
+    {
+        "id" : 1,
+        "name": "Cargador 2.1A ibek carga rapida",
+        "stock" : 2,
+        "description" : "Cargador con dos puertos USB"
+    },
+    {
+        "id" : 2,
+        "name": "Cargador 3.1A ibek carga rapida",
+        "stock" : 1,
+        "description" : "Cargador con dos puertos USB"
+    }
+]
